@@ -1,0 +1,45 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+    .header {
+      background-color: navy;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .container {
+      max-width: 700px;
+      margin: 20px auto;
+      border: 2px solid #ccc;
+      padding: 20px;
+    }
+    .section-title {
+      background-color: #512888;
+      color: white;
+      padding: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 5px;
+    }
+    td, th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      background-color: #9d5cf2;
+    }
+    .print-btn {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      border: none;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    #result-section {
+      display: none;
+    }
+    .photo {
+      margin-bottom: 10px;
+    }

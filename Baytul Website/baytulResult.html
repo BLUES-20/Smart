@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BAYTUL-HIKMAH Result Checker</title>
+  <link rel="stylesheet" href="baytulResult.css">
+  <script src="baytulResult.js"></script>
+</head>
+<body>
+
+  <div class="header">
+    <h2>BAYTUL HIKMAH</h2>
+    <small>Official Website</small>
+  </div>
+
+  <div class="container">
+    <div id="form-section">
+      <h3>Enter UserName to Check Result</h3>
+      <input type="text" id="examPin" placeholder="Enter Exam Pin" />
+      <button onclick="checkResult()">Check Result</button>
+      <p id="error" style="color:red;"></p>
+    </div>
+
+    <div id="result-section">
+      <div class="photo">
+        <img id="studentPhoto" src="" width="150">
+      </div>
+
+      <div class="section-title">Candidate's Information</div>
+      <table id="infoTable"></table>
+
+      <div class="section-title">Subject/Grade</div>
+      <table id="subjectTable"></table>
+
+      <div class="section-title">Total</div>
+      <table id="totalTable"></table>
+
+      <button class="print-btn" onclick="window.print()">Click Here to Print</button>
+    </div>
+  </div>
+
+ 
+
+</body>
+</html>
